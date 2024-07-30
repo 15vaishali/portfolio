@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Portfolio Website</title>
+    <link rel="stylesheet" href="p.css"> 
+    <style>
+        .social-media {
+            text-align: left;
+        }
+        
+        .social-media img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
+            border-radius: 50%;
+        }
+        
+        .typing-effect {
+            overflow: hidden;
+            white-space: nowrap;
+            animation: typing 8s steps(25, end);
+        }
+        
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+       
+        .image-container {
+            display: flex;
+			flex:1;
+            justify-content: flex-end;
+            margin-top: -280px;
+
+        }
+        
+        .image-container img {
+            vertical-align: top;
+            margin-top: -20px;
+            margin-right: 20px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul align="right">
+                <li><a href="#">Home</a></li>
+                <li><a href="Aboutme.html">About Me</a></li>
+                <li><a href="PORTFOLIO1.html">Portfolio</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="contactt.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero-image">
+            <div class="hero-text">
+                <br><br><br><br>
+                <h3>Web Developer</h3>
+                <div class="typing-effect">
+                    <h1>Hi, I'm</h1>
+                    <h1>Vaishali Pateriya</h1>
+                </div>
+                <div class="social-media">
+                    <a href="https://github.com/15vaishali/15vaishali"><img src="github.png" alt="GitHub"></a>
+                    <a href="https://twitter.com/Vaishali6099"><img src="twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/vaishali_pateriya/"><img src="instagram.jpg" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/in/vaishali-pateriya-690b07249/"><img src="linkedin.png" alt="LinkedIn"></a>
+                    <a href="https://t.me/vaishalipateriya"><img src="telegram.jpg" alt="Telegram"></a>
+                    <a href="mailto:vaishalipateriya2@gmail.com"><img src="email.jpg" alt="Email"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100093243138872"><img src="facebook.png" alt="Facebook"></a>
+                </div>
+            </div>
+        </div>
+        <div class="image-container">
+            <img src="my.png" alt="My Image">
+        </div>
+    </section>
+</body>
+</html>
